@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 *
 {
   margin: 0px;
@@ -6,7 +7,7 @@
 }
 .background-img
 {
-    background-image: url("portfolio background.jpg");
+    background-image: url("bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -15,6 +16,7 @@
 h1 {
   color: #fff;
   padding: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .box {
@@ -26,7 +28,7 @@ h1 {
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #5d82e9;
   text-align: center;
 }
 
@@ -43,7 +45,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #5d82e9;
 }
 
 input[type="checkbox"] {
@@ -56,7 +58,7 @@ p {
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
-  font-family: 'helvetica neue';
+  font-family: 'Poppins', sans-serif;
 }
 
 form.item {
@@ -69,7 +71,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #5d82e9;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
